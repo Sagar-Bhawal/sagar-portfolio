@@ -1,28 +1,18 @@
 const timeline = [
   {
-    year: "2025",
-    title: "Master Data Science Program",
-    desc: "Started advanced learning in Data Science, Machine Learning, SQL and AI.",
+    year: "2025 - Present",
+    title: "Master Data Science Program with AI",
+    desc: "IIT Madras | HCL-GUVI.",
   },
   {
-    year: "2026",
-    title: "Luxury Housing Sales Analysis",
-    desc: "Built Power BI dashboards and SQL analytics pipeline.",
+    year: "2023 - 2025",
+    title: "Bachelor of Education ",
+    desc: "Tarai B.ed College, Ghoshpukur.",
   },
   {
-    year: "2026",
-    title: "Content Monetization Modeler",
-    desc: "Predicted YouTube revenue using Machine Learning.",
-  },
-  {
-    year: "2026",
-    title: "Comment Toxicity Detection",
-    desc: "Developed LSTM-based NLP classification model.",
-  },
-  {
-    year: "2026",
-    title: "Intelligent Document Assistant",
-    desc: "Built a RAG-based AI assistant using LangChain and FAISS.",
+    year: "2019 - 2022",
+    title: "Bachelor of Arts",
+    desc: "Salesian College, Siliguri.",
   },
 ];
 
