@@ -16,8 +16,17 @@ export default function Certifications() {
             </h3>
 
             <p className="text-gray-400 mt-3">
-              GUVI - HCL
+             GUVI - HCL
             </p>
+
+            <a
+              href="https://drive.google.com/file/d/1-Mm3kf9WOxJF-IkNqNjdX8uVNs_u7pPP/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4 text-sky-400 hover:text-sky-300"
+            >
+              📜 View Certificate
+            </a>
           </div>
 
           <div className="bg-slate-900 p-8 rounded-2xl">
@@ -28,6 +37,15 @@ export default function Certifications() {
             <p className="text-gray-400 mt-3">
               GUVI
             </p>
+
+            <a
+              href="https://drive.google.com/file/d/1z3APL_IbuZJAFP0nOP-kZRIWHOPuzPr5/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-4 text-sky-400 hover:text-sky-300"
+            >
+              📜 View Certificate
+            </a>
           </div>
 
         </div>
