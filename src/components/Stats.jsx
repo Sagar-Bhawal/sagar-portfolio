@@ -1,28 +1,45 @@
+const stats = [
+  {
+    value: "6+",
+    label: "End-to-End Projects",
+  },
+  {
+    value: "100K+",
+    label: "Records Analyzed",
+  },
+  {
+    value: "4+",
+    label: "Data & AI Domains",
+  },
+  {
+    value: "AI",
+    label: "ML • NLP • GenAI",
+  },
+];
+
 export default function Stats() {
   return (
-    <section className="bg-slate-900 py-16">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-6 px-6">
+    <section className="bg-slate-900 border-y border-slate-800">
+      <div className="max-w-6xl mx-auto px-6 py-14">
 
-        <div className="bg-slate-800 p-8 rounded-2xl text-center">
-          <h2 className="text-4xl font-bold text-sky-400">6+</h2>
-          <p className="text-white mt-2">Projects</p>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+
+          {stats.map((stat) => (
+            <div
+              key={stat.label}
+              className="text-center px-4 py-6 rounded-xl bg-slate-950/60 border border-slate-800 hover:border-sky-500/40 transition duration-300"
+            >
+              <h2 className="text-3xl md:text-4xl font-bold text-sky-400">
+                {stat.value}
+              </h2>
+
+              <p className="mt-2 text-sm text-gray-400">
+                {stat.label}
+              </p>
+            </div>
+          ))}
+
         </div>
-
-        <div className="bg-slate-800 p-8 rounded-2xl text-center">
-          <h2 className="text-4xl font-bold text-sky-400">100K+</h2>
-          <p className="text-white mt-2">Records Analyzed</p>
-        </div>
-
-        <div className="bg-slate-800 p-8 rounded-2xl text-center">
-          <h2 className="text-4xl font-bold text-sky-400">4+</h2>
-          <p className="text-white mt-2">Domains</p>
-        </div>
-
-        <div className="bg-slate-800 p-8 rounded-2xl text-center">
-          <h2 className="text-4xl font-bold text-sky-400">AI</h2>
-          <p className="text-white mt-2">ML • NLP • GenAI</p>
-        </div>
-
       </div>
     </section>
   );
