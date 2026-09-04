@@ -1,4 +1,3 @@
-```jsx
 export default function About() {
   return (
     <section
@@ -58,4 +57,3 @@ export default function About() {
     </section>
   );
 }
-```
