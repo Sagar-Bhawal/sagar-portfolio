@@ -1,3 +1,4 @@
+```jsx
 export default function About() {
   return (
     <section
@@ -16,9 +17,40 @@ export default function About() {
             Building practical solutions with data.
           </h2>
 
-          <p className="text-lg md:text-xl leading-9 text-gray-300">
-            Aspiring Data Scientist with 6+ end-to-end ML, NLP, Generative AI and Power BI projects using Python, SQL, TensorFlow, LangChain, FAISS and Streamlit. Hands-on experience in predictive modelling, RAG systems, dashboard development and analytics on 100K+ record datasets through end-to-end projects.
-          </p>
+          <div className="space-y-6 text-lg md:text-xl leading-9 text-gray-300">
+
+            <p>
+              I’m an aspiring Data Scientist who builds end-to-end data and AI
+              solutions to turn complex data into actionable insights,
+              predictions, and intelligent applications.
+            </p>
+
+            <p>
+              Through 6+ projects, I’ve worked with{" "}
+              <span className="text-white font-semibold">100K+ records</span>{" "}
+              across business analytics, predictive modeling, NLP, deep
+              learning, clustering, and Generative AI. My work includes
+              uncovering patterns in housing and digital payment data,
+              predicting content monetization with{" "}
+              <span className="text-white font-semibold">R² ≈ 0.95</span>,
+              detecting toxic language, discovering patterns in music data,
+              and building a{" "}
+              <span className="text-sky-400 font-semibold">
+                RAG-powered document assistant
+              </span>{" "}
+              for natural-language information retrieval.
+            </p>
+
+            <p>
+              What I bring is a problem-first approach: understand the
+              objective, work with the data, apply the right analytical or
+              modeling technique, validate the result, and turn it into
+              something usable. My goal is to build data-driven solutions that
+              are technically sound, interpretable, and relevant to real-world
+              problems.
+            </p>
+
+          </div>
 
         </div>
 
@@ -26,3 +58,4 @@ export default function About() {
     </section>
   );
 }
+```
