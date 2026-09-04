@@ -1,4 +1,3 @@
-```jsx
 export default function About() {
   return (
     <section
@@ -6,7 +5,6 @@ export default function About() {
       className="py-24 lg:py-28 bg-slate-950 text-white"
     >
       <div className="max-w-6xl mx-auto px-6">
-
         <div className="max-w-4xl">
 
           <p className="text-sky-400 text-sm font-semibold uppercase tracking-widest mb-3">
@@ -53,9 +51,7 @@ export default function About() {
           </div>
 
         </div>
-
       </div>
     </section>
   );
 }
-```
